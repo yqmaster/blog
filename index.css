@@ -1,0 +1,110 @@
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    user-select: none;
+}
+
+body {
+    margin: 0
+}
+
+#welocme {
+    color: #fff;
+    font-size: 50px;
+    line-height: 300px;
+    height: 300px;
+    text-align: center;
+    background-color: #159957;
+    background-image: linear-gradient(120deg, #155799, #159957);
+    cursor: default;
+}
+
+#loginbox {
+    text-align: center;
+    height: 400px;
+}
+
+.inputbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logininputword {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: #159957;
+    cursor: default;
+}
+
+.logininput {
+    padding: 15px;
+    margin-top: 0 0 1rem;
+    font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    color: #567482;
+    background-color: #f3f6fa;
+    border: solid 2px #dce6f0;
+    border-radius: 0.5rem;
+    width: 300px;
+    transition: all 0.3s;
+}
+
+.logininput:hover {
+    padding: 14px;
+    outline-style: none;
+    border: solid 3px #88b7e6;
+}
+
+.logininput:focus {
+    padding: 14px;
+    outline-style: none;
+    border: solid 3px #88b7e6;
+}
+
+.btn {
+    background-color: #159957;
+    color: #fff;
+    border-style: none;
+    width: 150px;
+    height: 40px;
+    font-size: 25px;
+    line-height: 40px;
+    margin: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background-color: #2dc77a;
+}
+
+.btn1 {
+    color: #606c71;
+    text-decoration: none;
+    border-style: none;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    line-height: 40px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+#bottoninform {
+    color: #606c71;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    line-height: 100px;
+    background-color: #fff;
+    cursor: default;
+}
